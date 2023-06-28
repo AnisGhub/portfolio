@@ -4,8 +4,9 @@ import React, { useState } from 'react';
 import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 import useThemeSwitcher from '../../customHooks/useThemeSwitcher';
-import Button from './Button';
+import Button from '../ui/Button';
 import HireMeModal from '../HireMeModal';
+import logo from '../../images/logo-placeholder.png';
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,9 +30,9 @@ function Header() {
             <div>
               <NavLink to="/">
                 {theme === 'dark' ? (
-                  <img src="" className="w-36" alt="Dark Logo" />
+                  <img src={logo} className="w-36" alt="Dark Logo" />
                 ) : (
-                  <img src="" className="w-36" alt="Light Logo" />
+                  <img src={logo} className="w-36" alt="Light Logo" />
                 )}
               </NavLink>
             </div>

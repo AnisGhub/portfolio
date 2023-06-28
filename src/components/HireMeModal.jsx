@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { FiX } from 'react-icons/fi';
 import PropTypes from 'prop-types';
-import Button from './layout/Button';
+import Button from './ui/Button';
 import sendEmail from '../utils/SendEmail';
 
 const selectOptions = ['Web Application', 'Mobile Application'];
