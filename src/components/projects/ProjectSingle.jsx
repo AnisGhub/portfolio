@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-function ProjectSingle({ title, category, image }) {
+function ProjectSingle({ id, title, category, image }) {
   return (
     <div>
-      <NavLink to="/projects/single-project" aria-label="Single Project">
+      <NavLink to={`/projects/project/${id}`} aria-label="Single Project">
         <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
           <div>
             <img src={image} className="rounded-t-xl border-none" alt="Single Project" />
@@ -22,6 +22,7 @@ function ProjectSingle({ title, category, image }) {
   );
 }
 ProjectSingle.propTypes = {
+  id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,

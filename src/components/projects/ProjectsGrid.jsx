@@ -102,6 +102,7 @@ function ProjectsGrid() {
         {selectProject
           ? selectProjectsByCategory.map((project) => (
               <ProjectSingle
+                id={project.id}
                 title={project.title}
                 category={project.category}
                 image={project.img}
@@ -111,6 +112,7 @@ function ProjectsGrid() {
           : searchProject
           ? searchProjectsByTitle.map((project) => (
               <ProjectSingle
+                id={project.id}
                 title={project.title}
                 category={project.category}
                 image={project.img}
@@ -119,6 +121,7 @@ function ProjectsGrid() {
             ))
           : projects.map((project) => (
               <ProjectSingle
+                id={project.id}
                 title={project.title}
                 category={project.category}
                 image={project.img}
