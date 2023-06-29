@@ -10,7 +10,7 @@ function Home() {
     <div className="container mx-auto">
       <AppBanner />
 
-      <ProjectsProvider>
+      <ProjectsProvider isHomePage>
         <ProjectsGrid />
       </ProjectsProvider>
 

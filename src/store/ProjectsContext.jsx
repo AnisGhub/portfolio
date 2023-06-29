@@ -6,7 +6,7 @@ import { projectsData } from '../data/projects';
 export const ProjectsContext = createContext();
 
 // Create the projects context provider
-export function ProjectsProvider({ children }) {
+export function ProjectsProvider({ children, isHomePage = false }) {
   const [projects, setProjects] = useState(projectsData);
   const [searchProject, setSearchProject] = useState('');
   const [selectProject, setSelectProject] = useState('');
@@ -27,28 +27,43 @@ export function ProjectsProvider({ children }) {
     });
   }, [projects, selectProject]);
 
-  const projectsContextValue = useMemo(
-    () => ({
-      projects,
+  // Sort projects by publish date for home page
+  const sortedProjects = useMemo(() => {
+    return projects.sort((a, b) => {
+      const dateA = new Date(a.ProjectHeader.publishDate);
+      const dateB = new Date(b.ProjectHeader.publishDate);
+      return dateB - dateA;
+    });
+  }, [projects]);
+
+  const projectsContextValue = useMemo(() => {
+    return {
+      isHomePage,
+      projects: isHomePage ? sortedProjects.slice(0, 3) : projects,
       setProjects,
-      searchProject,
-      setSearchProject,
-      searchProjectsByTitle,
-      selectProject,
-      setSelectProject,
-      selectProjectsByCategory,
-    }),
-    [
-      projects,
-      setProjects,
-      searchProject,
-      setSearchProject,
-      searchProjectsByTitle,
-      selectProject,
-      setSelectProject,
-      selectProjectsByCategory,
-    ]
-  );
+      ...(isHomePage
+        ? {}
+        : {
+            searchProject,
+            setSearchProject,
+            searchProjectsByTitle,
+            selectProject,
+            setSelectProject,
+            selectProjectsByCategory,
+          }),
+    };
+  }, [
+    isHomePage,
+    projects,
+    sortedProjects,
+    setProjects,
+    searchProject,
+    setSearchProject,
+    searchProjectsByTitle,
+    selectProject,
+    setSelectProject,
+    selectProjectsByCategory,
+  ]);
 
   return (
     <ProjectsContext.Provider value={projectsContextValue}>{children}</ProjectsContext.Provider>
@@ -56,4 +71,8 @@ export function ProjectsProvider({ children }) {
 }
 ProjectsProvider.propTypes = {
   children: PropTypes.node.isRequired,
+  isHomePage: PropTypes.bool,
+};
+ProjectsProvider.defaultProps = {
+  isHomePage: false,
 };

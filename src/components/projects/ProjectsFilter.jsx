@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const selectOptions = ['loremipsum', 'loremipsum2'];
+const selectOptions = ['Training', 'Professional', 'Personal', 'Commercial'];
 
 function ProjectsFilter({ setSelectProject }) {
   return (
