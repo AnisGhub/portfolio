@@ -1,12 +1,19 @@
 // Import images
 import placeholderimage from '../images/jk-placeholder-image.jpg';
+import argentbank1 from '../images/argentbank1.png';
+import argentbank2 from '../images/argentbank2.png';
+import kasa1 from '../images/kasa1.png';
+import kasa2 from '../images/kasa2.png';
+import kasa3 from '../images/kasa3.png';
+import sportSee1 from '../images/sportSee1.png';
+import sportSee3 from '../images/sportSee3.png';
 
 export const projectsData = [
   {
     id: 1,
     title: 'Argent Bank',
     category: 'Training',
-    img: placeholderimage,
+    img: argentbank1,
     ProjectHeader: {
       title: 'Argent Bank',
       publishDate: 'Jun 29, 2023',
@@ -16,12 +23,12 @@ export const projectsData = [
       {
         id: 1,
         title: 'image1',
-        img: placeholderimage,
+        img: argentbank1,
       },
       {
         id: 2,
         title: 'image2',
-        img: placeholderimage,
+        img: argentbank2,
       },
       {
         id: 3,
@@ -91,7 +98,7 @@ export const projectsData = [
     id: 2,
     title: 'SportSee',
     category: 'Training',
-    img: placeholderimage,
+    img: sportSee1,
     ProjectHeader: {
       title: 'SportSee',
       publishDate: 'Jun 29, 2023',
@@ -101,17 +108,12 @@ export const projectsData = [
       {
         id: 1,
         title: 'image1',
-        img: placeholderimage,
-      },
-      {
-        id: 2,
-        title: 'image2',
-        img: placeholderimage,
+        img: sportSee1,
       },
       {
         id: 3,
         title: 'image3',
-        img: placeholderimage,
+        img: sportSee3,
       },
     ],
     ProjectInfo: {
@@ -176,7 +178,7 @@ export const projectsData = [
     id: 3,
     title: 'Kasa',
     category: 'Training',
-    img: placeholderimage,
+    img: kasa3,
     ProjectHeader: {
       title: 'Kasa',
       publishDate: 'Jun 29, 2023',
@@ -186,17 +188,17 @@ export const projectsData = [
       {
         id: 1,
         title: 'image1',
-        img: placeholderimage,
+        img: kasa1,
       },
       {
         id: 2,
         title: 'image2',
-        img: placeholderimage,
+        img: kasa2,
       },
       {
         id: 3,
         title: 'image3',
-        img: placeholderimage,
+        img: kasa3,
       },
     ],
     ProjectInfo: {

@@ -16,7 +16,7 @@ function ProjectsFilter({ setSelectProject }) {
   return (
     <select
       onChange={handleSelectChange}
-      className="font-general-medium px-4 sm:px-6 py-2 border dark:border-secondary-dark rounded-lg text-sm sm:text-md dark:font-medium bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+      className="font-nunito-medium px-4 sm:px-6 py-2 border dark:border-secondary-dark rounded-lg text-sm sm:text-md dark:font-medium bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
     >
       <option value="all" className="text-sm sm:text-md">
         All Projects
