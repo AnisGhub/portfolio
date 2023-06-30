@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { FiArrowDownCircle } from 'react-icons/fi';
-import useThemeSwitcher from '../customHooks/useThemeSwitcher';
-import developer from '../images/developer.svg';
-import developerDark from '../images/developer-dark.svg';
-// import bannerillustration from '../images/bannerillustration.svg';
+// import useThemeSwitcher from '../customHooks/useThemeSwitcher';
+// import developer from '../images/developer.svg';
+// import developerDark from '../images/developer-dark.svg';
+import banner from '../images/undraw_js.svg';
 
 function AppBanner() {
-  const [activeTheme] = useThemeSwitcher();
+  // const [activeTheme] = useThemeSwitcher();
 
   return (
     <section className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 md:mt-2">
@@ -32,7 +32,7 @@ function AppBanner() {
       </div>
       <div className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0">
         {/* <img src={activeTheme === 'dark' ? developerLight : developerDark} alt="Developer" /> */}
-        <img src={activeTheme === 'dark' ? developerDark : developer} alt="Developer" />
+        <img src={banner} alt="Developer" />
       </div>
     </section>
   );
