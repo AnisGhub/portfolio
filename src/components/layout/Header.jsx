@@ -6,8 +6,7 @@ import { NavLink } from 'react-router-dom';
 import useThemeSwitcher from '../../customHooks/useThemeSwitcher';
 import Button from '../ui/Button';
 import HireMeModal from '../HireMeModal';
-import logo from '../../images/undraw_code.svg';
-import logoLight from '../../images/undraw_code_light.svg';
+import logo from '../../images/logoimg.png';
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -31,9 +30,17 @@ function Header() {
             <div>
               <NavLink to="/">
                 {theme === 'dark' ? (
-                  <img src={logoLight} className="w-10 lg:w-12" alt="Dark Logo" />
+                  <img
+                    src={logo}
+                    className="w-20 h-20 filter grayscale rounded-full"
+                    alt="Dark Logo"
+                  />
                 ) : (
-                  <img src={logo} className="w-10 lg:w-12" alt="Light Logo" />
+                  <img
+                    src={logo}
+                    className="w-20 h-20 filter grayscale rounded-full"
+                    alt="Light Logo"
+                  />
                 )}
               </NavLink>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
-import placeholderuser from '../images/placeholderuser.jpg';
+import mePic from '../images/photolinkedin.jpg';
 
 const contacts = [
   {
@@ -24,7 +24,7 @@ function About() {
     <div className="container mx-auto">
       <div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
         <div className="w-full sm:w-1/4 mb-7 sm:mb-0">
-          <img src={placeholderuser} className="rounded-lg w-96" alt="" />
+          <img src={mePic} className="rounded-lg w-96" alt="" />
         </div>
         <div className="font-general-regular w-full sm:w-3/4 text-left">
           <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
