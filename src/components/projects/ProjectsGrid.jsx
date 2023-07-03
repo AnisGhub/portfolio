@@ -21,15 +21,15 @@ function ProjectsGrid() {
   return (
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
       <div className="text-center">
-        <p className="font-nunito-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+        <p className="font-general-medium text-2xl sm:text-4xl mb-10 text-ternary-dark dark:text-ternary-light">
           Projects portfolio
         </p>
       </div>
 
       {isHomePage ? null : (
-        <div className="mt-10 sm:mt-16">
+        <div className="sm:mt-16">
           <h3
-            className="font-nunito-regular 
+            className="font-general-regular 
                         text-center text-secondary-dark
                         dark:text-ternary-light
                         text-md
@@ -68,7 +68,7 @@ function ProjectsGrid() {
                 onChange={(e) => {
                   setSearchProject(e.target.value);
                 }}
-                className="font-nunito-medium 
+                className="font-general-medium 
                                 pl-3
                                 pr-1
                                 sm:px-4

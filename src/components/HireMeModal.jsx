@@ -35,7 +35,7 @@ function HireMeModal({ onClose, onRequest }) {
   };
 
   return (
-    <div className="font-nunito-medium fixed inset-0 z-30 transition-all duration-500">
+    <div className="font-general-medium fixed inset-0 z-30 transition-all duration-500">
       {/* Modal Backdrop */}
       <div className="bg-filter bg-black bg-opacity-50 fixed inset-0 w-full h-full z-20" />
 

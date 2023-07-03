@@ -95,7 +95,7 @@ function Header() {
             <div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
               <span
                 onClick={showHireMeModal}
-                className="font-nunito-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
+                className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
                 aria-label="Hire Me Button"
               >
                 <Button title="Hire Me" />
@@ -104,17 +104,17 @@ function Header() {
           </div>
 
           {/* Header links large screen */}
-          <div className="font-nunito-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
+          <div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
             <NavLink
               to="/projects"
-              className="block text-left text-2xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+              className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
               aria-label="Projects"
             >
               Projects
             </NavLink>
             <NavLink
               to="/about"
-              className="block text-left text-2xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+              className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
               aria-label="About Me"
             >
               About Me
@@ -126,7 +126,7 @@ function Header() {
             <div className="hidden md:flex">
               <span
                 onClick={showHireMeModal}
-                className="text-md font-nunito-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+                className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
                 aria-label="Hire Me Button"
               >
                 <Button title="Hire Me" />

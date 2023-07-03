@@ -11,7 +11,7 @@ function ProjectSingle({ id, title, category, image }) {
             <img src={image} className="rounded-t-xl border-none" alt="Single Project" />
           </div>
           <div className="text-center px-4 py-6">
-            <p className="font-nunito-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
+            <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
               {title}
             </p>
             <span className="text-lg text-ternary-dark dark:text-ternary-light">{category}</span>

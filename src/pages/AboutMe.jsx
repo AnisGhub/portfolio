@@ -26,7 +26,7 @@ function About() {
         <div className="w-full sm:w-1/4 mb-7 sm:mb-0">
           <img src={placeholderuser} className="rounded-lg w-96" alt="" />
         </div>
-        <div className="font-nunito-regular w-full sm:w-3/4 text-left">
+        <div className="font-general-regular w-full sm:w-3/4 text-left">
           <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores
             dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque
@@ -48,10 +48,10 @@ function About() {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10">
         <div className="w-full lg:w-1/2">
           <div className="text-left max-w-xl px-6">
-            <h2 className="font-nunito-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
+            <h2 className="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
               Contact details
             </h2>
-            <ul className="font-nunito-regular">
+            <ul className="font-general-regular">
               {contacts.map((contact) => (
                 <li className="flex " key={contact.id}>
                   <i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">{contact.icon}</i>
