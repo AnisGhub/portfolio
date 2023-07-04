@@ -22,7 +22,7 @@ function ProjectsGrid() {
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
       <div className="text-center">
         <p className="font-general-medium text-2xl sm:text-4xl mb-10 text-ternary-dark dark:text-ternary-light">
-          Projects portfolio
+          {isHomePage ? 'Projets En Avant' : 'Découvrez mes réalisations'}
         </p>
       </div>
 
@@ -37,7 +37,7 @@ function ProjectsGrid() {
                         mb-3
                         "
           >
-            Search projects by title or filter by category
+            Recherchez des projets par titre ou filtrez par catégorie
           </h3>
           <div
             className="
@@ -88,7 +88,7 @@ function ProjectsGrid() {
                 name="name"
                 type="search"
                 required=""
-                placeholder="Search Projects"
+                placeholder="titre du projet"
                 aria-label="Name"
               />
             </div>

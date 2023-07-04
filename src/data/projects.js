@@ -1,5 +1,6 @@
 // Import images
 import placeholderimage from '../images/placeholder.jpg';
+import portfolio1 from '../images/portfolio1.png';
 import argentbank1 from '../images/argentbank1.png';
 import argentbank2 from '../images/argentbank2.png';
 import kasa1 from '../images/kasa1.png';
@@ -12,7 +13,7 @@ export const projectsData = [
   {
     id: 1,
     title: 'Argent Bank',
-    category: 'Training',
+    category: 'Formation',
     img: argentbank1,
     ProjectHeader: {
       title: 'Argent Bank',
@@ -97,7 +98,7 @@ export const projectsData = [
   {
     id: 2,
     title: 'SportSee',
-    category: 'Training',
+    category: 'Formation',
     img: sportSee1,
     ProjectHeader: {
       title: 'SportSee',
@@ -177,7 +178,7 @@ export const projectsData = [
   {
     id: 3,
     title: 'Kasa',
-    category: 'Training',
+    category: 'Formation',
     img: kasa3,
     ProjectHeader: {
       title: 'Kasa',
@@ -262,8 +263,8 @@ export const projectsData = [
   {
     id: 4,
     title: 'Portfolio',
-    category: 'Personal',
-    img: placeholderimage,
+    category: 'Personnel',
+    img: portfolio1,
     ProjectHeader: {
       title: 'Portfolio',
       publishDate: 'Jul 02, 2023',

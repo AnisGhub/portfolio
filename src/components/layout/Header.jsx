@@ -90,14 +90,14 @@ function Header() {
               className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
               aria-label="Projects"
             >
-              Projects
+              Projets
             </NavLink>
             <NavLink
               to="/about"
               className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
               aria-label="About Me"
             >
-              About Me
+              A Propos
             </NavLink>
             <div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
               <span
@@ -105,7 +105,7 @@ function Header() {
                 className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
                 aria-label="Hire Me Button"
               >
-                <Button title="Hire Me" />
+                <Button title="Engagez-moi" />
               </span>
             </div>
           </div>
@@ -117,14 +117,14 @@ function Header() {
               className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
               aria-label="Projects"
             >
-              Projects
+              Projets
             </NavLink>
             <NavLink
               to="/about"
               className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
               aria-label="About Me"
             >
-              About Me
+              A Propos
             </NavLink>
           </div>
 
@@ -136,7 +136,7 @@ function Header() {
                 className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
                 aria-label="Hire Me Button"
               >
-                <Button title="Hire Me" />
+                <Button title="Engagez-moi" />
               </span>
             </div>
 

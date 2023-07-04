@@ -90,19 +90,19 @@ function About() {
       </div>
       <div className="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm py-14">
         <div className="xl:container xl:mx-auto flex justify-start overflow-hidden">
-          <div className="py-8 min-w-full shrink-0 flex justify-around items-center animate-marquee">
+          <div className="min-w-full shrink-0 flex justify-around items-center animate-marquee">
             {skills.map((skill) => (
-              <a href={skill.link} key={skill.name}>
+              <a href={skill.link} key={skill.name} className="mr-6 md:mr-0">
                 <img src={skill.logo} alt={skill.name} className="h-10 md:h-14" />
               </a>
             ))}
           </div>
           <div
             aria-hidden="true"
-            className="py-8 min-w-full shrink-0 flex justify-around items-center animate-marquee"
+            className="min-w-full shrink-0 flex justify-around items-center animate-marquee"
           >
             {skills.map((skill) => (
-              <a href={skill.link} key={skill.name}>
+              <a href={skill.link} key={skill.name} className="mr-6 md:mr-0">
                 <img src={skill.logo} alt={skill.name} className="h-10 md:h-14" />
               </a>
             ))}
@@ -112,13 +112,13 @@ function About() {
       <div className="container mx-auto">
         <div className="mt-10 sm:mt-20">
           <p className="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">
-            Some of the brands that trust me
+            Entreprises qui m&apos;ont accordé leur confiance
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
             {clientsData.map((client) => (
               <img
                 src={client.img}
-                className="w-64 object-cover py-5 px-10 border bg-secondary-light border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
+                className="w-64 h-44 object-contain py-5 px-5 border bg-secondary-light border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
                 alt={client.title}
                 key={client.id}
               />
