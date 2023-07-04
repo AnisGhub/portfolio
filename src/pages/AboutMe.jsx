@@ -118,7 +118,7 @@ function About() {
             {clientsData.map((client) => (
               <img
                 src={client.img}
-                className="w-64 py-5 px-10 border bg-secondary-light border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
+                className="w-64 object-cover py-5 px-10 border bg-secondary-light border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
                 alt={client.title}
                 key={client.id}
               />

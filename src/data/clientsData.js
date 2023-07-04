@@ -1,46 +1,53 @@
 // Import images
-import placeholder from '../images/placeholder.jpg';
+import atosImg from '../images/entreprise/atos.png';
+import sqliImg from '../images/entreprise/sqli.png';
+import decasoftImg from '../images/entreprise/decasoft.png';
+import cnesImg from '../images/entreprise/cnes.png';
+import airbusImg from '../images/entreprise/airbushelico.jpg';
+import cciparisImg from '../images/entreprise/cciparis.jpg';
+import expematImg from '../images/entreprise/expemat.png';
+import pragmanticImg from '../images/entreprise/pragmantic.jpg';
 
 export const clientsData = [
   {
     id: 1,
-    title: 'Amazon',
-    img: placeholder,
+    title: 'Atos',
+    img: atosImg,
   },
   {
     id: 2,
-    title: 'Sony',
-    img: placeholder,
+    title: 'Sqli',
+    img: sqliImg,
   },
   {
     id: 3,
-    title: 'Adidas',
-    img: placeholder,
+    title: 'Decasoft',
+    img: decasoftImg,
   },
   {
     id: 4,
-    title: 'FILA',
-    img: placeholder,
+    title: 'Cnes',
+    img: cnesImg,
   },
   {
     id: 5,
-    title: 'NB',
-    img: placeholder,
+    title: 'Airbus',
+    img: airbusImg,
   },
   {
     id: 6,
-    title: 'SAMSUNG',
-    img: placeholder,
+    title: 'CciParis',
+    img: cciparisImg,
   },
   {
     id: 7,
-    title: 'CANON',
-    img: placeholder,
+    title: 'Expemat',
+    img: expematImg,
   },
   {
     id: 8,
-    title: 'PUMA',
-    img: placeholder,
+    title: 'Pragmantic',
+    img: pragmanticImg,
   },
 ];
 
