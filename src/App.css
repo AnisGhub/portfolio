@@ -232,3 +232,17 @@ body {
     opacity: 0.5;
   }
 }
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

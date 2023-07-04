@@ -1,5 +1,5 @@
 // Import images
-import placeholderimage from '../images/jk-placeholder-image.jpg';
+import placeholderimage from '../images/placeholder.jpg';
 import argentbank1 from '../images/argentbank1.png';
 import argentbank2 from '../images/argentbank2.png';
 import kasa1 from '../images/kasa1.png';
