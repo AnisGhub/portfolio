@@ -3,47 +3,44 @@ import { ProjectContext } from '../../store/ProjectContext';
 
 function ProjectInfo() {
   const { selectedProject } = useContext(ProjectContext);
-
   return (
     <div className="block sm:flex gap-0 sm:gap-10 mt-14">
       <div className="w-full sm:w-1/3 text-left">
         {/* Single project client details */}
         <div className="mb-7">
           <p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
-            {selectedProject.ProjectInfo.ClientHeading}
+            {selectedProject.ProjectInfo.infoHeading}
           </p>
           <ul className="leading-loose">
-            {selectedProject.ProjectInfo.CompanyInfo.map((info) => {
+            {selectedProject.ProjectInfo.infoBody.map((info) => {
               return (
                 <li
                   className="font-general-regular text-ternary-dark dark:text-ternary-light"
                   key={info.id}
                 >
                   <span>{info.title}: </span>
-                  <a
-                    href="https://stoman.me"
-                    className={
-                      info.title === 'Website' || info.title === 'Phone'
-                        ? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-                        : ''
-                    }
-                    aria-label="Project Website and Phone"
-                  >
-                    {info.details}
-                  </a>
+                  {info.url ? (
+                    <span>
+                      <a href={info.url} className="text-primary-dark dark:text-primary-light">
+                        <span>{info.details}</span>
+                      </a>
+                    </span>
+                  ) : (
+                    <span>{info.details}</span>
+                  )}
                 </li>
               );
             })}
           </ul>
         </div>
 
-        {/* Single project objectives */}
+        {/* Single project Role */}
         <div className="mb-7">
           <p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-            {selectedProject.ProjectInfo.ObjectivesHeading}
+            {selectedProject.ProjectInfo.RoleHeading}
           </p>
           <p className="font-general-regular text-primary-dark dark:text-ternary-light">
-            {selectedProject.ProjectInfo.ObjectivesDetails}
+            {selectedProject.ProjectInfo.RoleDetails}
           </p>
         </div>
 
@@ -61,9 +58,9 @@ function ProjectInfo() {
       {/*  Single project right section */}
       <div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
         <p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
-          {selectedProject.ProjectInfo.ProjectDetailsHeading}
+          {selectedProject.ProjectInfo.MissionHeading}
         </p>
-        {selectedProject.ProjectInfo.ProjectDetails.map((details) => {
+        {selectedProject.ProjectInfo.MissionDetails.map((details) => {
           return (
             <p
               key={details.id}

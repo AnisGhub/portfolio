@@ -3,6 +3,7 @@ import placeholderimage from '../images/placeholder.jpg';
 import portfolio1 from '../images/portfolio1.png';
 import argentbank1 from '../images/argentbank1.png';
 import argentbank2 from '../images/argentbank2.png';
+import kasamain from '../images/kasa-main.jpeg';
 import kasa1 from '../images/kasa1.png';
 import kasa2 from '../images/kasa2.png';
 import kasa3 from '../images/kasa3.png';
@@ -38,59 +39,50 @@ export const projectsData = [
       },
     ],
     ProjectInfo: {
-      ClientHeading: 'About Client',
-      CompanyInfo: [
+      infoHeading: 'Details du projet',
+      infoBody: [
         {
           id: 1,
-          title: 'Name',
-          details: 'Company Ltd',
+          title: 'Contexte',
+          details: 'Projet de formation',
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
+          title: 'Organisme',
+          details: 'Openclassrooms',
+          url: 'https://openclassrooms.com/fr/',
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://company.com',
-        },
-        {
-          id: 4,
-          title: 'Phone',
-          details: '555 8888 888',
+          title: 'url',
+          details: 'Argent Bank',
+          url: 'https://anis-openclassrooms-p13.vercel.app',
         },
       ],
-      ObjectivesHeading: 'Objective',
-      ObjectivesDetails:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+      RoleHeading: 'Rôle',
+      RoleDetails: 'Developpeur Frontend',
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', 'React', 'Redux'],
+          title: 'Technologies & Outils',
+          techs: ['HTML', 'CSS', '...', '...'],
         },
       ],
-      ProjectDetailsHeading: 'Challenge',
-      ProjectDetails: [
+      MissionHeading: 'Mission',
+      MissionDetails: [
         {
           id: 1,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France',
         },
         {
           id: 2,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+            'Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel',
         },
         {
           id: 3,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-        },
-        {
-          id: 4,
-          details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité',
         },
       ],
     },
@@ -118,59 +110,50 @@ export const projectsData = [
       },
     ],
     ProjectInfo: {
-      ClientHeading: 'About Client',
-      CompanyInfo: [
+      infoHeading: 'Details du projet',
+      infoBody: [
         {
           id: 1,
-          title: 'Name',
-          details: 'Company Ltd',
+          title: 'Contexte',
+          details: 'Projet de formation',
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
+          title: 'Organisme',
+          details: 'Openclassrooms',
+          url: 'https://openclassrooms.com/fr/',
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://company.com',
-        },
-        {
-          id: 4,
-          title: 'Phone',
-          details: '555 8888 888',
+          title: 'url',
+          details: 'SportSee',
+          url: 'https://anis-openclassrooms-p12.vercel.app/',
         },
       ],
-      ObjectivesHeading: 'Objective',
-      ObjectivesDetails:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+      RoleHeading: 'Rôle',
+      RoleDetails: 'Developpeur Frontend',
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', 'React', 'Redux'],
+          title: 'Technologies & Outils',
+          techs: ['HTML', 'CSS', 'React', 'Router'],
         },
       ],
-      ProjectDetailsHeading: 'Challenge',
-      ProjectDetails: [
+      MissionHeading: 'Mission',
+      MissionDetails: [
         {
           id: 1,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France',
         },
         {
           id: 2,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+            'Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel',
         },
         {
           id: 3,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-        },
-        {
-          id: 4,
-          details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité',
         },
       ],
     },
@@ -179,7 +162,7 @@ export const projectsData = [
     id: 3,
     title: 'Kasa',
     category: 'Formation',
-    img: kasa3,
+    img: kasamain,
     ProjectHeader: {
       title: 'Kasa',
       publishDate: 'Jun 29, 2023',
@@ -203,59 +186,50 @@ export const projectsData = [
       },
     ],
     ProjectInfo: {
-      ClientHeading: 'About Client',
-      CompanyInfo: [
+      infoHeading: 'Details du projet',
+      infoBody: [
         {
           id: 1,
-          title: 'Name',
-          details: 'Company Ltd',
+          title: 'Contexte',
+          details: 'Projet de formation',
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
+          title: 'Organisme',
+          details: 'Openclassrooms',
+          url: 'https://openclassrooms.com/fr/',
         },
         {
           id: 3,
-          title: 'Website',
-          details: 'https://company.com',
-        },
-        {
-          id: 4,
-          title: 'Phone',
-          details: '555 8888 888',
+          title: 'url',
+          details: 'Kasa',
+          url: 'https://anisghub.github.io/anis_openclassrooms_p11/',
         },
       ],
-      ObjectivesHeading: 'Objective',
-      ObjectivesDetails:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+      RoleHeading: 'Rôle',
+      RoleDetails: 'Developpeur Frontend',
       Technologies: [
         {
-          title: 'Tools & Technologies',
+          title: 'Technologies & Outils',
           techs: ['HTML', 'CSS', 'React', 'Router'],
         },
       ],
-      ProjectDetailsHeading: 'Challenge',
-      ProjectDetails: [
+      MissionHeading: 'Mission',
+      MissionDetails: [
         {
           id: 1,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France',
         },
         {
           id: 2,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+            'Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel',
         },
         {
           id: 3,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-        },
-        {
-          id: 4,
-          details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité',
         },
       ],
     },
@@ -288,59 +262,44 @@ export const projectsData = [
       },
     ],
     ProjectInfo: {
-      ClientHeading: 'About Client',
-      CompanyInfo: [
+      infoHeading: 'Details du projet',
+      infoBody: [
         {
           id: 1,
-          title: 'Name',
-          details: 'Company Ltd',
+          title: 'Contexte',
+          details: 'Projet Personnel',
         },
         {
           id: 2,
-          title: 'Services',
-          details: 'UI Design & Frontend Development',
-        },
-        {
-          id: 3,
-          title: 'Website',
-          details: 'https://company.com',
-        },
-        {
-          id: 4,
-          title: 'Phone',
-          details: '555 8888 888',
+          title: 'url',
+          details: 'Portfolio',
+          url: 'https://portfolio-anisghub.vercel.app/',
         },
       ],
-      ObjectivesHeading: 'Objective',
-      ObjectivesDetails:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+      RoleHeading: 'Rôle',
+      RoleDetails: 'Developpeur Frontend',
       Technologies: [
         {
-          title: 'Tools & Technologies',
-          techs: ['HTML', 'CSS', 'React', 'React context', 'Router'],
+          title: 'Technologies & Outils',
+          techs: ['HTML', 'CSS', 'React', 'Router'],
         },
       ],
-      ProjectDetailsHeading: 'Challenge',
-      ProjectDetails: [
+      MissionHeading: 'Mission',
+      MissionDetails: [
         {
           id: 1,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France',
         },
         {
           id: 2,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+            'Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel',
         },
         {
           id: 3,
           details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-        },
-        {
-          id: 4,
-          details:
-            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+            'Objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité',
         },
       ],
     },

@@ -13,9 +13,25 @@ function Header() {
   const [showModal, setShowModal] = useState(false);
   const [theme, toggleTheme] = useThemeSwitcher('dark');
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
+  const closeMenuOnClickOutside = (event) => {
+    if (!event.target.closest('#nav')) {
+      setShowMenu(false);
+      document.body.removeEventListener('click', closeMenuOnClickOutside);
+    }
   };
+  const toggleMenu = () => {
+    if (showMenu) {
+      setShowMenu(false);
+    } else {
+      setShowMenu(true);
+      document.body.addEventListener('click', closeMenuOnClickOutside);
+    }
+  };
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 640 && showMenu) {
+      setShowMenu(false);
+    }
+  });
 
   const showHireMeModal = () => {
     setShowModal(!showModal);
@@ -102,7 +118,7 @@ function Header() {
             <div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
               <span
                 onClick={showHireMeModal}
-                className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
+                className="font-general-medium sm:hidden block sm:text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-36 text-center sm:w-24"
                 aria-label="Hire Me Button"
               >
                 <Button title="Engagez-moi" />
