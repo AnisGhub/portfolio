@@ -70,20 +70,28 @@ function About() {
           </div>
           <div className="font-general-regular w-full sm:w-3/4 text-left">
             <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores
-              dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque
-              consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum,
-              dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus
-              obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore
-              excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam
-              perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus
-              nesciunt odit libero tenetur neque consequatur earum
+              Bonjour ! Je suis Anis, développeur <b>spécialisé</b> dans l&apos;écosystème{' '}
+              <b>JavaScript</b>, avec une expertise particulière sur <b>React</b>. J&apos;ai plus de
+              3 ans d&apos;expérience en ESN, où j&apos;ai travaillé sur divers projets avec
+              différents clients.
             </p>
             <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores
-              dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque
-              consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?
+              Mon objectif aujourd&apos;hui est de continuer à me spécialiser et me perfectionner
+              dans le développement front end, et dans un avenir proche, explorer le développement
+              mobile avec react native.
+            </p>
+            <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
+              Je suis <b>curieux</b> de nature, <b>j&apos;adore apprendre</b> et relever de nouveaux
+              défis. Je suis <b>passionné</b> par le développement et je reste constamment à
+              l&apos;affût des dernières tendances et des meilleures pratiques pour continuer à
+              améliorer mes compétences.
+            </p>
+
+            <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
+              Si vous recherchez un développeur <b>enthousiaste</b>, prêt à relever de nouveaux
+              défis, capable de <b>s&apos;adapter rapidement</b> à une équipe n&apos;hésitez pas à
+              me contacter. Je serais ravi de discuter de la façon dont je peux contribuer à votre
+              équipe ou à votre projet.
             </p>
           </div>
         </div>
