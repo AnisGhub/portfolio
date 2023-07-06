@@ -1,15 +1,15 @@
 import React from 'react';
 import mePic from '../images/photolinkedin.jpg';
 import { clientsData } from '../data/clientsData';
-import reactLogo from '../images/react.svg';
-import reduxLogo from '../images/redux.svg';
-import javascriptLogo from '../images/javascript.svg';
-import typescriptLogo from '../images/typescript.svg';
-import htmlLogo from '../images/html.svg';
-import cssLogo from '../images/css.svg';
-import sassLogo from '../images/sass.svg';
-import tailwindLogo from '../images/tailwind.svg';
-import nodejsLogo from '../images/nodejs.svg';
+import reactLogo from '../images/techlogo/react.svg';
+import reduxLogo from '../images/techlogo/redux.svg';
+import javascriptLogo from '../images/techlogo/javascript.svg';
+import typescriptLogo from '../images/techlogo/typescript.svg';
+import htmlLogo from '../images/techlogo/html.svg';
+import cssLogo from '../images/techlogo/css.svg';
+import sassLogo from '../images/techlogo/sass.svg';
+import tailwindLogo from '../images/techlogo/tailwind.svg';
+import nodejsLogo from '../images/techlogo/nodejs.svg';
 
 const skills = [
   {

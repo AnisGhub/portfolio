@@ -21,7 +21,10 @@ function ProjectInfo() {
                   <span>{info.title}: </span>
                   {info.url ? (
                     <span>
-                      <a href={info.url} className="text-primary-dark dark:text-primary-light">
+                      <a
+                        href={info.url}
+                        className="text-primary-dark dark:text-primary-light underline"
+                      >
                         <span>{info.details}</span>
                       </a>
                     </span>
@@ -64,7 +67,7 @@ function ProjectInfo() {
           return (
             <p
               key={details.id}
-              className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+              className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light whitespace-pre-line"
             >
               {details.details}
             </p>

@@ -1,12 +1,12 @@
 // Import images
-import atosImg from '../images/entreprise/atos.png';
-import sqliImg from '../images/entreprise/sqli.png';
-import decasoftImg from '../images/entreprise/decasoft.png';
-import cnesImg from '../images/entreprise/cnes.png';
-import airbusImg from '../images/entreprise/airbushelico.jpg';
-import cciparisImg from '../images/entreprise/cciparis.jpg';
-import expematImg from '../images/entreprise/expemat.png';
-import pragmanticImg from '../images/entreprise/pragmantic.jpg';
+import atosImg from '../images/companies/atos.png';
+import sqliImg from '../images/companies/sqli.png';
+import decasoftImg from '../images/companies/decasoft.png';
+import cnesImg from '../images/companies/cnes.png';
+import airbusImg from '../images/companies/airbushelico.jpg';
+import cciparisImg from '../images/companies/cciparis.jpg';
+import expematImg from '../images/companies/expemat.png';
+import pragmanticImg from '../images/companies/pragmantic.jpg';
 
 export const clientsData = [
   {

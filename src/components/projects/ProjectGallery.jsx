@@ -11,7 +11,7 @@ function ProjectGallery() {
           <div className="mb-10 sm:mb-0" key={project.id}>
             <img
               src={project.img}
-              className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
+              className="rounded-xl cursor-pointer shadow-lg sm:shadow-none sm:h-[140px] lg:h-[200px] xl:h-[260px] w-full object-fill"
               alt={project.title}
               key={project.id}
             />
