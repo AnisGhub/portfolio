@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 import useThemeSwitcher from '../../customHooks/useThemeSwitcher';
 import Button from '../ui/Button';
 import HireMeModal from '../HireMeModal';
-import logo from '../../images/logoimg.png';
+import logo from '../../images/logo.png';
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -48,13 +48,13 @@ function Header() {
                 {theme === 'dark' ? (
                   <img
                     src={logo}
-                    className="w-20 h-20 filter grayscale rounded-full"
+                    className="w-[62px] h-[62px] sm:w-[72px] sm:h-[72px] filter rounded-full"
                     alt="Dark Logo"
                   />
                 ) : (
                   <img
                     src={logo}
-                    className="w-20 h-20 filter grayscale rounded-full"
+                    className="w-[62px] h-[62px] sm:w-[72px] sm:h-[72px] filter  rounded-full"
                     alt="Light Logo"
                   />
                 )}

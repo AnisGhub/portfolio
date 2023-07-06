@@ -29,7 +29,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-secondary-light dark:bg-primary-dark transition duration-300">
-        {!showToast && <ScrollToTop />}
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

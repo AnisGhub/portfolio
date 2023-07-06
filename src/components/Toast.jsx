@@ -3,8 +3,8 @@ import React from 'react';
 // eslint-disable-next-line react/prop-types
 function Toast({ onClose }) {
   return (
-    <div className="fixed bottom-5 left-0 w-full">
-      <div className="container mx-auto sticky bottom-5 left-0 w-full animate-slide-up">
+    <div className="fixed bottom-11 left-0 w-full">
+      <div className="container mx-auto sticky bottom-11 left-0 w-full animate-slide-up">
         <div className="p-4 bg-indigo-50 rounded-lg shadow opacity-90">
           <div className="flex items-center">
             <div className="flex-shrink-0 w-8 h-8 text-orange-500 bg-orange-100 rounded-lg flex items-center justify-center mr-2">
