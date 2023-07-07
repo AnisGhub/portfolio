@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
@@ -36,6 +36,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/project/:id" element={<Project />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         {showToast && <Toast onClose={handleCloseToast} />}
         <Footer />
