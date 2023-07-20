@@ -1,5 +1,7 @@
 // Import images
 import portfolio1 from '../images/Projects/portfolio1.png';
+import portfolio2 from '../images/Projects/portfolio2.png';
+import portfolio3 from '../images/Projects/portfolio3.png';
 import argentbank1 from '../images/Projects/argentbank1.png';
 import argentbank2 from '../images/Projects/argentbank2.png';
 import argentbank3 from '../images/Projects/argentbank3.png';
@@ -8,6 +10,9 @@ import kasa2 from '../images/Projects/kasa2.png';
 import kasa3 from '../images/Projects/kasa3.png';
 import sportSee1 from '../images/Projects/sportSee1.png';
 import sportSee3 from '../images/Projects/sportSee3.png';
+import WealthHealth1 from '../images/Projects/WealthHealth1.png';
+import WealthHealth2 from '../images/Projects/WealthHealth2.png';
+import WealthHealth3 from '../images/Projects/WealthHealth3.png';
 
 export const projectsData = [
   {
@@ -294,7 +299,12 @@ export const projectsData = [
       {
         id: 2,
         title: 'image2',
-        img: portfolio1,
+        img: portfolio2,
+      },
+      {
+        id: 3,
+        title: 'image3',
+        img: portfolio3,
       },
     ],
     ProjectInfo: {
@@ -343,6 +353,93 @@ export const projectsData = [
             "-> Intégrer des liens vers mes réalisations, mes profils sur les réseaux sociaux et d'autres plateformes professionnelles.\n" +
             '-> Optimiser les performances du site pour un chargement rapide et une navigation fluide.\n' +
             '-> Mettre à jour régulièrement le contenu du portfolio pour refléter mes derniers projets et compétences.',
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    title: 'Wealth Health',
+    category: 'Formation',
+    img: WealthHealth3,
+    ProjectHeader: {
+      title: 'Wealth Health HRnet',
+      publishDate: 'Jul 20, 2023',
+      tags: ['UI Lib', 'Frontend', 'Web', 'Table', 'Form', 'Modal'],
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: 'image1',
+        img: WealthHealth1,
+      },
+      {
+        id: 2,
+        title: 'image2',
+        img: WealthHealth2,
+      },
+      {
+        id: 3,
+        title: 'image3',
+        img: WealthHealth3,
+      },
+    ],
+    ProjectInfo: {
+      infoHeading: 'Details du projet',
+      infoBody: [
+        {
+          id: 1,
+          title: 'Contexte',
+          details: 'Projet de formation',
+        },
+        {
+          id: 2,
+          title: 'Organisme',
+          details: 'Openclassrooms',
+          url: 'https://openclassrooms.com/fr/',
+        },
+        {
+          id: 3,
+          title: 'url',
+          details: 'Kasa',
+          url: 'https://anisghub.github.io/anis_openclassrooms_p11/',
+        },
+        {
+          id: 4,
+          title: 'url',
+          details: 'Repo',
+          url: 'https://github.com/AnisGhub/anis_openclassrooms_p11',
+        },
+      ],
+      RoleHeading: 'Rôle',
+      RoleDetails: 'Developpeur Frontend',
+      Technologies: [
+        {
+          title: 'Technologies & Outils',
+          techs: ['HTML', 'React', 'Redux', 'MUI', 'UI component'],
+        },
+      ],
+      MissionHeading: 'Mission',
+      MissionDetails: [
+        {
+          id: 1,
+          details:
+            'WealthHealth possède une application web interne appelée HRnet qui gère les dossiers des employés',
+        },
+        {
+          id: 2,
+          details:
+            "Actuellement, HRnet utilise jQuery côté frontend, ce qui entraîne des bugs et des plaintes en interne. Le projet consiste à convertir l'ensemble de l'application HRnet en React pour améliorer les performances et la stabilité.",
+        },
+        {
+          id: 3,
+          details:
+            'Objectif : \n' +
+            "-> Convertir l'ensemble de l'application HRnet en React.\n" +
+            '-> Créer une nouvelle version des pages "Create Employee" et "Employee List" avec React.\n' +
+            "-> Ajouter un système de gestion d'état basé sur React (avec utilisation du stockage local).\n" +
+            "-> Convertir l'un des quatre plugins jQuery actuels en un composant React personnalisé." +
+            "-> Effectuer des tests de performance Lighthouse pour comparer les performances de l'application HRnet actuelle et de la nouvelle application HRnet React.",
         },
       ],
     },
