@@ -401,14 +401,14 @@ export const projectsData = [
         {
           id: 3,
           title: 'url',
-          details: 'Kasa',
-          url: 'https://anisghub.github.io/anis_openclassrooms_p11/',
+          details: 'HRnet',
+          url: 'https://anis-openclassrooms-p14.vercel.app/',
         },
         {
           id: 4,
           title: 'url',
           details: 'Repo',
-          url: 'https://github.com/AnisGhub/anis_openclassrooms_p11',
+          url: 'https://github.com/AnisGhub/anis_openclassrooms_p14',
         },
       ],
       RoleHeading: 'Rôle',
